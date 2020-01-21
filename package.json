@@ -1,0 +1,32 @@
+{
+  "name": "faktura",
+  "version": "1.0.0",
+  "description": "A simple tool to create invoices.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "faktura",
+    "node.js",
+    "mongodb",
+    "express",
+    "mongoose",
+    "api"
+  ],
+  "author": "Aymen Labidi <aymenlabidi88@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.5",
+    "morgan": "^1.9.1"
+  }
+}
