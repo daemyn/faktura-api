@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     // required: true,
   },
+  confirmationToken: {
+    token: String,
+    expiresIn: Date,
+  },
 }, {
   timestamps: true,
 });
