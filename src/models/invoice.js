@@ -8,7 +8,7 @@ const DiscountSchema = new mongoose.Schema({
   },
   discountValue: {
     type: Number,
-  }
+  },
 });
 
 const ItemSchema = new mongoose.Schema({
